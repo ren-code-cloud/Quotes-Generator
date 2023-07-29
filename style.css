@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url("bg.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  width: 80%;
+  height: 40vh;
+  padding: 0 1.5em;
+  border-radius: .5rem;
+  background: rgba(51,51,51, .5);
+  margin: 25vh auto 0;
+  color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+}
+#author {
+  position: absolute;
+  top: 20%;
+  font-size: 1.2rem;
+}
+.button {
+  position: absolute;
+  bottom: 15%;
+  padding: .5em 2em;
+  border: none;
+  border-radius: .5em;
+  display: none;
+  font-size: 1rem;
+}
